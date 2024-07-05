@@ -101,7 +101,7 @@ future_years = np.arange(2021, 2023).reshape(-1, 1)
 # Dictionary to store predictions
 predictions = {'YEAR': np.arange(2021, 2023)}
 
-# Train a linear regression model for each column and predict future values
+# Train a linear regression model for each column and predict future values of price
 for column in df.columns[1:]:
     y = df[[column]]
 
@@ -111,7 +111,7 @@ for column in df.columns[1:]:
     # Train the model on training data
     model = LinearRegression().fit(X_train, y_train)
 
-    # Optionally, you can evaluate the model on the test data
+    # Evaluation the model on the test data
     score = model.score(X_test, y_test)
     print(f'R^2 score for {column}: {score:.2f}')
     # Print the model coefficients
