@@ -94,7 +94,7 @@ plt.show()
 
 # Model Preparation
 
-# Prepare features and target
+# Prepare features and target during 2021..2023
 X = df[['YEAR']]
 future_years = np.arange(2021, 2023).reshape(-1, 1)
 
