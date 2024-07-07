@@ -71,7 +71,7 @@ plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1, wspace=0.4, hspace
 
 plt.show()
 
-# Linear regression plots to visualize the relationship between each independent variable and the dependent variable
+# Linear regression plots to visualize the relationship between each independent variable and the dependent variable for various Inverter Companies
 
 sns.lmplot(x='SIEMENS_G120_055', y='YEAR', data=df)
 sns.lmplot(x='SIEMENS_G120_075', y='YEAR', data=df)
@@ -94,7 +94,7 @@ plt.show()
 
 # Model Preparation
 
-# Prepare features and target during 2021..2023
+# Prepare features and target between 2021..2023
 X = df[['YEAR']]
 future_years = np.arange(2021, 2023).reshape(-1, 1)
 
@@ -121,13 +121,13 @@ for column in df.columns[1:]:
     # Predict future values
     predictions[column] = model.predict(future_years).flatten()
 
-# Convert predictions to DataFrame
+# Convert all predictions to DataFrame
 predictions_df = pd.DataFrame(predictions)
 
 # Combine with the original data
 df_combined = pd.concat([df, predictions_df], ignore_index=True)
 
-# Display the predictions
+# Show the predictions
 print(df_combined)
 
 # Plotting the results
