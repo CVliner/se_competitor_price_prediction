@@ -18,7 +18,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 os.getcwd()
 df = pd.read_csv("/content/price_competitor.csv")
 
-"""### Exploratory Data Analysis"""
+"""### Exploratory Data Analysis of Competitor Prices"""
 
 # View the first few rows of the dataset
 
