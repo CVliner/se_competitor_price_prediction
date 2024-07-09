@@ -85,7 +85,7 @@ sns.lmplot(x='ABB_ACS150_22',y= 'YEAR', data=df)
 sns.lmplot(x='Danfoss_VLT_075', y='YEAR', data=df)
 sns.lmplot(x='Danfoss_VLT_22',y= 'YEAR', data=df)
 
-# Correlation Heatmap to check for multicollinearity among independent/dependent variables
+# Correlation Heatmap to check for multicollinearity among independent/dependent variables of companies
 
 corrmat = df.corr()
 f, ax = plt.subplots(figsize=(12, 9))
@@ -98,7 +98,7 @@ plt.show()
 X = df[['YEAR']]
 future_years = np.arange(2021, 2023).reshape(-1, 1)
 
-# Dictionary to store predictions
+# Dictionary to save predictions
 predictions = {'YEAR': np.arange(2021, 2023)}
 
 # Train a linear regression model for each column and predict future values of price
@@ -130,7 +130,7 @@ df_combined = pd.concat([df, predictions_df], ignore_index=True)
 # Show the predictions
 print(df_combined)
 
-# Plotting the results
+# Plotting the prediction results
 for column in df.columns[1:]:
     plt.figure()
     plt.plot(df['YEAR'], df[column], label='Historical Data')
