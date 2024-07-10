@@ -13,7 +13,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
 import warnings
 
-# Load dataset
+# Load dataset in csv, competitor prices of inverters
 warnings.simplefilter(action='ignore', category=FutureWarning)
 os.getcwd()
 df = pd.read_csv("/content/price_competitor.csv")
