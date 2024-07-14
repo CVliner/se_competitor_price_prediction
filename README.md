@@ -17,7 +17,7 @@ python competitor_price_prediction.py
 
 
 ### Dataset
-Datas in Dataset have been collected according to main competitor prices based on standart offers for customers during 2004-2020.
+Datas in Dataset have been collected according to main competitor prices based on commercial offers for customers during 2004-2020.
 ### Results
 
 ### Recommendations
