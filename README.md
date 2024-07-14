@@ -24,7 +24,7 @@ Overall, inverter prices have shown an upward trend over the years. This reflect
 ### Recommendations
 For further observation and price prediction, it is recommended to:
 
-Make market segmentation of inverters and analyze the volume of VFD sales.
-Update the model and improve prediction models.
-Continue data analysis.
-Create a marketing strategy.
+1) Make market segmentation of inverters and analyze the volume of VFD sales.
+2) Update the model and improve prediction models.
+3) Continue data analysis.
+4) Create a marketing strategy.
