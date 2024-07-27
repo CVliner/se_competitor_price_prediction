@@ -7,16 +7,17 @@ Competitor price prediction with Python enables businesses to forecast future sa
 ### Usage
 
 Clone the repository:
+```bash
 git clone https://github.com/CVliner/se_competitor_price_prediction.git
-
+```
+```bash
 cd se_competitor_price_prediction
-
+```
 Place the Data/price_competitor.csv dataset in the project directory.
-
 Run the script:
+```bash
 python competitor_price_prediction.py
-
-
+```
 ### Dataset
 Datas in Dataset have been collected according to main competitor prices based on commercial offers for customers during 2004-2020.
 ### Results
