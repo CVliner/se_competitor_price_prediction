@@ -13,8 +13,7 @@ git clone https://github.com/CVliner/se_competitor_price_prediction.git
 ```bash
 cd se_competitor_price_prediction
 ```
-Place the Data/price_competitor.csv dataset in the project directory.
-Run the script:
+Place the /Data/price_competitor.csv dataset in the project directory and run the script:
 ```bash
 python competitor_price_prediction.py
 ```
