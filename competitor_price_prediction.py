@@ -71,7 +71,7 @@ plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1, wspace=0.4, hspace
 
 plt.show()
 
-# Linear regression plots to visualize the relationship between each independent variable and the dependent variable for various Inverter Companies
+# Linear regression plots to visualize the relationship between each independent variable and the dependent variable for various inverter companies
 
 sns.lmplot(x='SIEMENS_G120_055', y='YEAR', data=df)
 sns.lmplot(x='SIEMENS_G120_075', y='YEAR', data=df)
