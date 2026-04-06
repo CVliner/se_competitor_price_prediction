@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3)",
+      "Bash(import *)",
+      "Bash(with)",
+      "Bash(as *)",
+      "Bash(nb *)",
+      "Bash(f)",
+      "Bash(src *)",
+      "Bash([src.replace)",
+      "Bash('price positioning of item. using ml-techniques, companies can analyze historical data, construct predictive models and make decisions to optimize marketing strategies, allocate resources efficiently and maximize sales. by timely updating the models with new data, commpany can adapt',)",
+      "Bash('price positioning of items. using ml-techniques, companies can analyze historical data, construct predictive models and make decisions to optimize marketing strategies, allocate resources efficiently and maximize revenue. by timely updating the models with new data, a company can adapt')",
+      "Bash([])",
+      "Bash(none)",
+      "Bash(new_source *)",
+      "Bash('os.getcwd()\\ndf = pd.read_csv(\"/content/price_competitor.csv\")',)",
+      "Bash('script_dir = os.path.dirname(os.path.abspath(\"__file__\"))\\ndata_path = os.path.join(script_dir, \"data\", \"price_competitor.csv\")\\ndf = pd.read_csv(data_path)')",
+      "Bash([new_source])",
+      "Bash('    # split data into training and testing sets\\n    x_train, x_test, y_train, y_test = train_test_split(\\n        x, y, test_size=0.2, random_state=42\\n    )',)",
+      "Bash('    # temporal split: train on earlier years, test on later years\\n    split_year = 2016\\n    train_mask = x[\"year\"] <= split_year\\n    test_mask = ~train_mask\\n    x_train, x_test = x[train_mask], x[test_mask]\\n    y_train, y_test = y[train_mask], y[test_mask]')",
+      "Bash('np.arange(2021, 2023)',)",
+      "Bash('np.arange(2021, 2024)')",
+      "Bash('future_years = np.arange(2021, 2024).reshape(-1, 1)',)",
+      "Bash('future_years = pd.dataframe({\"year\": np.arange(2021, 2024)})')",
+      "Bash(json.dump)",
+      "Bash(print)",
+      "Bash(pyeof)"
+    ]
+  },
+  "$version": 3
+}
